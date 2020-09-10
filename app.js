@@ -11,8 +11,8 @@ uncomment the call for the testSum() function below and check the console to see
 // Write your code here
 function sum(a, b) { //eslint-disable-line
 var sum = a + b;
-var massege = "The sum of " + a + " and " + b  + " is "  + sum  +".";
-return [sum , massege];
+var message = "The sum of " + a + " and " + b  + " is "  + sum  +".";
+return [sum , message];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -30,14 +30,14 @@ Test this function by hand in the console to get it working, and when you think 
 uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-// function multiply(a, b) { //eslint-disable-line
-//     var firstelement = a * b;
-//     var secelement = ("the product of " + a + " and " + b  + " is "  + firstelement);
-//     console.log([firstelement , secelement]);
-// }
+function multiply(a, b) { //eslint-disable-line
+    var multi = a * b;
+    var message = ("The product of " + a + " and " + b  + " is "  + multi +".");
+    return [multi , message];
+}
 
 // // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
